@@ -1,0 +1,23 @@
+name: chm
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch::pytorch=1.10
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - opencv
+  - pillow
+  - tqdm
+  - pip
+  - pip:
+    - pytorch_wavelets
+    - librosa
+    - soundfile
+    - python-speech-features
